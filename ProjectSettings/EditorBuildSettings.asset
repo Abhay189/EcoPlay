@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameMenu.unity
     guid: 76f80119ad611ec4face298cccda3df5
+  - enabled: 1
+    path: Assets/Scenes/Tree game.unity
+    guid: 35941e26c1b7dbe4da4b0e19e146d37e
+  - enabled: 1
+    path: Assets/Scenes/WasteSorter.unity
+    guid: e7fc40bdf8f83f842a98cd6348d4d685
   m_configObjects: {}
