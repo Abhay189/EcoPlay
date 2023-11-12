@@ -14,4 +14,9 @@ public class GameOptions : MonoBehaviour
     {
         SceneManager.LoadScene("WasteSorter");
     }
+
+    public void redirectToLeakyFaucet() 
+    {
+        SceneManager.LoadScene("LeakyFaucet");
+    }
 }
