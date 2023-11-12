@@ -18,7 +18,7 @@ public class SpriteHoverChanger : MonoBehaviour
             hoverTimer += Time.deltaTime;
 
             // Check if the hover time threshold is reached
-            if (hoverTimer >= hoverTime)
+            if (hoverTimer >= hoverTime & currentSpriteIndex < spriteArray.Length)
             {
                 ChangeSprite();
                 hoverTimer = 0f; // Reset the timer after changing the sprite
@@ -52,7 +52,7 @@ public class SpriteHoverChanger : MonoBehaviour
         if (spriteRenderer != null)
         {
             // Increment the index to get the next sprite
-            currentSpriteIndex = (currentSpriteIndex + 1) % spriteArray.Length;
+            currentSpriteIndex = (currentSpriteIndex + 1);
 
             // Change the sprite to the next one in the array
             spriteRenderer.sprite = spriteArray[currentSpriteIndex];
